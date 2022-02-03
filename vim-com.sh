@@ -1,0 +1,1 @@
+/home/foxleoly/workspace/vim-com.sh

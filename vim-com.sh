@@ -26,6 +26,7 @@ else
 fi
 echo "execute command :=======> $cmds"
 sleep 3s
+# compile comands
 output="$(exec $cmds)"
 echo "$output"
 sudo make 

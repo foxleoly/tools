@@ -17,7 +17,7 @@ echo "Compile VIM  ...."
 if [ $(uname -s) == "Linux" ]
 then 
     echo "OS:==> $(uname -s)"
-    cmds="./configure --prefix=$INST_FOLDER --enable-gui=no --without-x --enable-cscope --enable-multibyte --enable-python3interp=yes  --with-python3-command=python3 --enable-pythoninterp=yes  --with-python-command=python2"
+    cmds="./configure --prefix=$INST_FOLDER --enable-gui=yes --without-x --enable-cscope --enable-multibyte --enable-python3interp=yes  --with-python3-command=python3 --enable-pythoninterp=yes  --with-python-command=python2 --enable-luainterp=yes --enable-fail-if-missing"
 else
 # configure command setup for mac
     echo "OS:==> $(uname -s)"
@@ -33,5 +33,5 @@ sudo make
 echo "Sleep 3s for install ...."
 sleep 3s
 sudo make install
-vim_ver="$(vim --version | grep compiled)"
+vim_ver="$(vim --version | head -n 1)"
 echo "$vim_ver"

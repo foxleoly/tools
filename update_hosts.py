@@ -19,7 +19,8 @@ import re
 
 import requests
 
-URL = "https://gitee.com/ineo6/hosts/raw/master/hosts"
+# URL = "https://gitee.com/ineo6/hosts/raw/master/hosts"
+URL = "https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts"
 
 
 def req(**kwargs):

@@ -33,5 +33,5 @@ sudo make
 echo "Sleep 3s for install ...."
 sleep 3s
 sudo make install
-vim_ver="$(vim --version | head -n 1)"
+vim_ver="$(vim --version | head -n 3)"
 echo "$vim_ver"

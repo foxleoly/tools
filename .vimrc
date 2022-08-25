@@ -25,7 +25,7 @@ Plugin 'nvie/vim-flake8'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
